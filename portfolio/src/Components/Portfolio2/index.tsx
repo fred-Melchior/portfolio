@@ -3,7 +3,7 @@ import { Projects, Section } from './styles'
 
 import efood from '../../assets/images/efood.png'
 import ebacTalks from '../../assets/images/EBACTalks.png'
-import pixel from '../../assets/images/pixelguy.png'
+import pixel from '../../assets/images/pixelGuy.png'
 
 const Portfolio2 = () => {
   return (
