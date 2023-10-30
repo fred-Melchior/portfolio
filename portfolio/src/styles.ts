@@ -36,10 +36,12 @@ body {
 }
 
 h3 {
+  color: ${colors.white};
   margin-bottom: 16px;
   font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  text-shadow: 11px 10px 6px ${colors.darkBlue};
 }
 
 p {
@@ -51,4 +53,5 @@ p {
     margin-right: 4px;
     color: ${colors.orange};
   }
+}
 `

@@ -1,9 +1,9 @@
 import CardJob from '../CardJob'
 import { Projects, Section } from './styles'
 
-import efood from '../../assets/images/efood.png'
-import ebacTalks from '../../assets/images/EBACTalks.png'
 import eplay from '../../assets/images/eplay.png'
+import twtr from '../../assets/images/tweeter.png'
+import ccc from '../../assets/images/ccc.png'
 
 const Portfolio = () => {
   return (
@@ -15,10 +15,10 @@ const Portfolio = () => {
         </h3>
         <Projects>
           <CardJob
-            href={'https://ebac-talks-alpha.vercel.app/'}
-            image={ebacTalks}
-            altName={'Ebac Talks'}
-            siteName={'Ebac Talks'}
+            href={'http://fredmelchior.pythonanywhere.com/'}
+            image={twtr}
+            altName={'Tweeter'}
+            siteName={'Tweeter'}
           />
           <CardJob
             href={'https://eplay-azure.vercel.app'}
@@ -27,10 +27,10 @@ const Portfolio = () => {
             siteName={'Eplay'}
           />
           <CardJob
-            href={'https://efood-weld.vercel.app'}
-            image={efood}
-            altName={'Efood'}
-            siteName={'Efood'}
+            href={'https://cuidandocomcoracao.vercel.app/'}
+            image={ccc}
+            altName={'Cuidando com o coração'}
+            siteName={'Cuidando com o coração'}
           />
         </Projects>
       </Section>

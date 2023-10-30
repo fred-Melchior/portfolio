@@ -1,3 +1,4 @@
+import React from 'react'
 import { Dev, HeaderContainer } from './styles'
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
       <div className="container">
         <h1>Frederico Melchior</h1>
 
-        <Dev>Dev FrontEnd</Dev>
+        <Dev>Desenvolvedor Full Stack</Dev>
       </div>
     </HeaderContainer>
   )
