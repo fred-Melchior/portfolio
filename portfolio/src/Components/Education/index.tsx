@@ -6,6 +6,17 @@ const Education = () => {
       <EducationDiv className="container">
         <h3>Formação</h3>
         <div className="div">
+          <Courses>
+            <p>
+              <b>Desenvolvedor Full Stack Python</b> (EBAC - 2023 - Concluído)
+            </p>
+            <p>
+              <b>Introdução à Programação </b> (EBAC - 2023 - Concluído)
+            </p>
+            <p>
+              <b>Profissão: TI do Zero ao Pro </b> (EBAC - 2023 - Concluído)
+            </p>
+          </Courses>
           <Languages>
             <div>
               <img
@@ -19,7 +30,7 @@ const Education = () => {
               />
               <img src="https://pt.vitejs.dev/logo.svg" alt="Vite" />
             </div>
-            <div style={{ marginLeft: 32 }}>
+            <div style={{ marginRight: 80 }}>
               <img
                 src="https://cdn-icons-png.flaticon.com/128/732/732190.png"
                 alt="CSS"
@@ -34,7 +45,7 @@ const Education = () => {
                 alt="Less"
               />
             </div>
-            <div style={{ marginLeft: 64 }}>
+            <div>
               <img
                 src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
                 alt="Javascript"
@@ -49,18 +60,22 @@ const Education = () => {
                 alt=""
               />
             </div>
+            <div>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt="Python"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                className="margin"
+                alt="PostgreSQL"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                alt="Django"
+              />
+            </div>
           </Languages>
-          <Courses>
-            <p>
-              <b>Desenvolvedor FullStack (Python)</b> (EBAC - cursando)
-            </p>
-            <p>
-              <b>Introdução a programação </b> (EBAC - 2023 - concluído)
-            </p>
-            <p>
-              <b>Front-end </b> (EBAC - 2023 - concluído)
-            </p>
-          </Courses>
         </div>
       </EducationDiv>
     </div>

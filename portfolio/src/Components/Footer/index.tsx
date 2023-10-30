@@ -5,7 +5,7 @@ const Footer = () => {
     <S.FooterDiv className="container">
       <S.SocialMedia>
         <a
-          href="https://github.com/fred-Melchior"
+          href="https://github.com/fredMelchior"
           target="_blank"
           rel="noreferrer"
         >

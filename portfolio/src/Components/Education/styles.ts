@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 export const EducationDiv = styled.div`
+  margin-bottom: 72px;
+
   h3 {
     margin-bottom: 24px;
   }
@@ -14,10 +16,11 @@ export const EducationDiv = styled.div`
 
 export const Courses = styled.div`
   display: inline-block;
-  margin-bottom: 24px;
-  // width: 30%;
+  display: flex;
+  flex-direction: column;
 
-
+  p {
+    margin-bottom: 40px;
   }
 `
 
@@ -43,7 +46,7 @@ export const Languages = styled.div`
     object-fit: cover;
 
     &.margin {
-      margin: 0 16px;
+      margin: 0 32px;
     }
   }
 `
